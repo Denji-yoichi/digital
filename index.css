@@ -1,0 +1,60 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    color: white;
+}
+span{
+    color: orange;
+}
+main{
+    color: white;
+}
+.relative{
+    position: relative;
+}
+.left{
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+.right{
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+}
+.centre{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px 25px;
+    border-radius: 25px;
+}
+a:hover{
+    background-color: gray;
+}
+.footer{
+    background-color: white;
+    padding: 100px 150px 10px 100px;
+}
+.image{
+    float: right;
+    padding: 50px 150px 10px 100px;
+}

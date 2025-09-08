@@ -1,0 +1,121 @@
+body{
+    background-image: url(tree.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.list{
+    color: white;
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    text-align: center;
+}
+h2{
+    color: orangered;
+    padding: 15px 100px;
+    font-size: 35px;
+}
+ul{
+    display: inline-flex;
+    font-weight: bold;
+}
+ul li{
+    list-style-type: none;
+    padding: 5px 20px;
+}
+.right{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+.search{
+    border: 1px solid orangered;
+    padding: 5px;
+    border-radius: 5px;
+}
+.link{
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+}
+.middle{
+    padding: 10px 100px;
+    margin-bottom: 10;
+}
+.topic{
+    font-size: 50px;
+}
+span{
+    font-size: 60px;
+    color: orangered;
+}
+.explain{
+    font-size: large;
+}
+.join{
+    background-color: orangered;
+    padding: 10px 40px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+.join:hover{
+    background-color: brown;
+    border: 1px solid brown;
+}
+.login{
+    position: relative;
+    float: right;
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    opacity: 0.8;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.top{
+    text-align: center;
+    color: orangered;
+    background-color: white;
+    font-size: 20px;
+    margin: 15px 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 4px 70px;
+}
+.email{
+    text-align: left;
+    font-size: 18px;
+    text-decoration: 3px underline orangered;
+    margin: 10px 20px;
+}
+.password{
+    text-align: left;
+    font-size: 18px;
+    text-decoration: 3px underline orangered;
+    margin: 10px 20px;
+}
+.log{
+    text-align: center;
+    background-color: orangered;
+    font-size: 20px;
+    margin: 10px 45px;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    padding: 4px 70px;
+}
+.signup{
+    text-align: center;
+    font-size: 15px;
+}
+.sign{
+    color: orangered;
+    text-decoration: none;
+}
+i{
+    width: 50px;
+    height: 50px;
+}

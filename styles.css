@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(gray, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Press Start 2P", "Tahoma";
+}
+header{
+    margin: 50px;
+    text-align: center;
+    font-family: "Times new roman";
+    font-weight: bold;
+    border-style: dashed ridge dotted;
+    border-color: white;
+    border-width: 8px;
+    border-radius: 10px;
+    text-shadow: 4px 4px 2px greenyellow;
+    font-size: 40px;
+}
+
+main{
+    font-family: "Verdana";
+    font-weight: lighter;
+    font-size: 18px;
+    border-style: dashed solid dotted;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px;
+    color: white;
+}
+
+span{
+    cursor: crosshair;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px outset turquoise;
+    border-right: 2px outset turquoise;
+}
+
+ol{
+    background-color: brown;
+}
+
+p:hover{
+    text-decoration: underline 4px;
+}
+a:link, a:visited{
+    background-color: red;
+    color: white;
+    padding: 100px, 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    color: blue;
+}
+
+#box1{
+    width: 250px;
+    height: 250px;
+    background: red;
+    font-size: 225px;
+    text-align: center;
+    animation: myColorChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+@keyframes myRotate{
+    /*100%{transform: rotateX(360deg);}*/
+    100%{transform: rotatey(360deg);}
+}
+
+@keyframes myColorChange{
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: blue;}
+    100%{background-color: purple;}
+}
+
+@keyframes myOpacity{
+    50%{opacity: 0;}
+}
+
+@keyframes myScale{
+    50%{transform: scale(0.5, 0.5);}
+}

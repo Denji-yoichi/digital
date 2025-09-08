@@ -1,0 +1,74 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color: purple;
+}
+h2{
+    margin: 5px; padding: 10px;
+}
+.relative{
+    position: relative;
+    
+    
+}
+
+.top{
+    position: absolute;
+    top: 1px;
+    left: 50px;
+    font-size: 18px;
+}
+
+.middle{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    margin-left: 95px;
+}
+
+.right{
+    position: absolute;
+    top: 1px;
+    right: 0%;
+    margin-right: 95px;
+    margin: 15px 100px; 
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+a{
+    border: 2px solid blueviolet;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: azure;
+    background-color: blueviolet;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: darkmagenta;
+}
+
+button{
+    color: blueviolet;
+    height: 41px;
+    width: 95px;
+    border: 2px solid blueviolet;
+    display: inline-block;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: gainsboro;
+}
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 5px; padding: 10px;
+}
